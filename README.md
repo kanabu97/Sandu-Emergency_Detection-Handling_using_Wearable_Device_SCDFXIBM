@@ -12,7 +12,6 @@
 1. [Long description](#long-description)
 1. [Getting started](#getting-started)
 1. [Built with](#built-with)
-1. [Contributing](#contributing)
 
 ## Short description
 
@@ -71,9 +70,10 @@ npm install node-red-dashboard node-red-contrib-alasql node-red-contrib-prib-fun
 * On the Node-RED flow editor, click the Menu and select `Import` -> `Clipboard` and paste the contents.
 * Import.
 * Change the name od file of the following node to the directory of UserHRdata.csv downloaded.
-![](Capture1.JPG)
 
+[](Capture1.JPG)
 * Change the directory path of the file in and out node to the desired directory to write and read the user details
+
 ![](Capture2.JPG) ![](Capture3.JPG)
 
 ### 4. Deploy the Node-RED flow by clicking on the `Deploy` button.
@@ -93,7 +93,4 @@ npm install node-red-dashboard node-red-contrib-alasql node-red-contrib-prib-fun
 * IBM Node Red
 
 
-## Authors
-
-**Ng Wei Soon and Lim Hui Yi**
 
