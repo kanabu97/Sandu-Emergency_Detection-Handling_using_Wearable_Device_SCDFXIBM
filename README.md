@@ -31,6 +31,7 @@ We believe that when emergency happen, wearable device is the most accessible de
 * 3. In the event where abnormal heart rate lasts for more than 3 minutes or fall is detected, user will be prompted a message to ask if they need help. Only one 'click' is needed to get help. 
 * 4. If help is needed or no reponse from the user, a message is sent to SCDF immediately.
 * 5. In the event where abnormal heart rate is too far away from range, SCDF will be informed directly.
+* 6. Nobody except the user can access the user details unless emergency happens.
 
 With that, SCDF can notify nearby CFRs to help the patient immediately and act accordingly. This function is particularly useful (but not restricted to) for single aging population as they are the most helpless group of people when emergency happens.
 
