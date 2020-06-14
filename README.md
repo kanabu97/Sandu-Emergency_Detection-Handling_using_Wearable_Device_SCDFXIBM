@@ -1,5 +1,5 @@
 # Sandu-Emergency Detection & Handling using Wearable Device SCDFXIBM
-"An idea that allows vulnerable populations to seek help immediately when emergency happens."
+"An idea that allows vulnerable populations to seek help immediately when emergency happens, in fact, with just one 'click', their lives can be saved."
 
 -Presented by Ng Wei Soon & Lim Hui Yi
 
