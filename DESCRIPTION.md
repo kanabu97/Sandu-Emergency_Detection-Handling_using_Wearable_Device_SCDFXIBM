@@ -15,12 +15,12 @@
 2. Dashboard is can be used as the demo of the screen that will be show on wearable device.
 3. Node red is built on local phone drive to ensure all the user datas are saved in user's local drive unless when emergency happens. Hence, users' privacy is protected.
 4. Healthy heart rate sample is computed based on data. Thus it is more accurate as different people might have different heart rate range.
-5. Actual SMS can be sent using node red, however it is not implemented because topup is needed for an Nexmo Number.
+5. Actual SMS can be sent using node-red, however it is not implemented because top-up is needed for an Nexmo number.
 
 ## Further Developments
 1. This function can be pushed out to everyone, not just the aging population.
 2. More activity modes such as sleeping can be computed for more accurate emergency detection.
-3. Can develop more response actions and conditions based on community's needs.
+3. Can include more descriptions in the SMS so that more precise aid can be given.
 4. Machine learning can be deployed for heart rate data analysis when chips technology advance, i.e. when mobile phone chip become more powerful.
 
 ## Conclusion
