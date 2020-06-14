@@ -37,7 +37,7 @@ With that, SCDF can notify nearby CFRs to help the patient immediately and act a
 
 ## Demo video
 
-![Watch the video](https://youtu.be/gzHLkusNQIo)
+[![Watch the video]](https://youtu.be/gzHLkusNQIo)
 
 ## The architecture
 
