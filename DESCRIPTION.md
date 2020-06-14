@@ -21,7 +21,7 @@
 1. This function can be pushed out to everyone, not just the aging population.
 2. More activity modes such as sleeping can be computed for more accurate emergency detection.
 3. Can include more descriptions in the SMS so that more precise aid can be given.
-4. Machine learning can be deployed for heart rate data analysis when chips technology advance, i.e. when mobile phone chip become more powerful.
+4. Machine learning can be deployed for heart rate data analysis when chip technology advances, i.e. when mobile phone chip become more powerful.
 
 ## Conclusion
-The most important feature of emergency response is simple and direct. That's the reason why our idea focuses on the simplicity of the user interface with one 'click' to save your life feature. Although solution proposed is no coplete, we do believe that if this feature is successfully implemented, a more efficiet emergency response system can be built, and more lives can be saved.
+The most important feature of emergency response is simple and direct. That's the reason why our idea focuses on the simplicity of the user interface with one 'click' to save your life feature. Although solution proposed is not complete, we do believe that if this feature is successfully implemented, a more efficiet emergency response system can be built, and more lives can be saved.
