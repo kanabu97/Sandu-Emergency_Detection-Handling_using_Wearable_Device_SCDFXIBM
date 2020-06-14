@@ -17,15 +17,15 @@
 
 ### What's the problem?
 
-SCDF works closely with Community First Responders (CFRs) to provide timely relief and response to emergency situations.With the increasingly aging population and a growing segment of vulnerable populations in mind (e.g. increasing trend of elderly with no next of kin), how might we leverage analytics for better sense-making to be alerted at the onset of incidents which require emergency response (e.g. cardiac arrests, falls etc.) and mobilise CFRs for effective early intervention especially to the vulnerable populations?
+SCDF works closely with Community First Responders (CFRs) to provide timely relief and response to emergency situations. With the increasingly aging population and a growing segment of vulnerable populations in mind (e.g. increasing trend of elderly with no next of kin), how might we leverage analytics for better sense-making to be alerted at the onset of incidents which require emergency response (e.g. cardiac arrests, falls etc.) and mobilise CFRs for effective early intervention especially to the vulnerable populations?
 
 ### How can technology help?
 
-With the advancement in electronic chips technolofy, small and convenient fitness tracker has become increasing common among the citizens as it allows the users to monitor thier health condition easily. On top of that, a few Fitness tracker companies are collaborating with Singapore HealthHub to give out affordable or even free fitness trackers to the citizens. Hence, it is a right timing for SCDF to harness ths
+With the advancement in electronic chips technolofy, small and convenient fitness tracker has become increasing common among the citizens as it allows the users to monitor thier health condition with just one button. On top of that, a few Fitness tracker companies are collaborating with Singapore HealthHub to give out subsidised or even free fitness trackers to the citizens. Hence, it is our firm belief that SCDF should make full use of this wearable devices for better emergency detection and response.
 
 ### The idea
 
-It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
+We believe that when emergency happen, wearable device is the most accessible device since it is worn on the patient's hand. If it is able to trigger a message to SCDF when emergency happens, a much faster emergency response can be achieved. Hence, we come out with the idea to detect abnormal heart rate using wearable device and respond immediately by sending the incident to SCDF. With that, SCDF can notify nearby CFRs to help the patient immediately. This function is particularly useful for single aging population as they are the most helpless group of people when emergency happens.
 
 ## Demo video
 
@@ -33,12 +33,15 @@ It's imperative that learning and creating can continue when educational institu
 
 ## The architecture
 
-![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+![](Architechture.png)
 
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
+1. The user provide user details and normal heart rate data to Node Red. 
+2. Wearable detect heart rate and send to Node Red.
+3. Node Red analyse the heart rate.
+4. During abnormal heart rate event that lasted more than 3 min, message prompted on wearable to ask whether the user needs help.
+5. If user responds "Dismiss", no action is taken.
+6. If user does not respond or respond "need help", Node Red send emergency message (containing user data and user current condition) to SCDF.
+7. SCDF officers can send the info to CFRs through myResponder app.
 
 ## Long description
 
@@ -71,7 +74,7 @@ npm install node-red-dashboard node-red-contrib-alasql node-red-contrib-prib-fun
 * Import.
 * Change the name od file of the following node to the directory of UserHRdata.csv downloaded.
 
-[](Capture1.JPG)
+![](Capture1.JPG)
 * Change the directory path of the file in and out node to the desired directory to write and read the user details
 
 ![](Capture2.JPG) ![](Capture3.JPG)
