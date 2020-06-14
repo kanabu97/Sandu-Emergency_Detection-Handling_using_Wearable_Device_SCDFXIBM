@@ -48,7 +48,7 @@ It's imperative that learning and creating can continue when educational institu
 
 ## Getting started
 
-Steps to run the demo
+Steps to run the demo.
 
 ### 1. Install Node-RED [locally](https://nodered.org/docs/getting-started/).
 
@@ -66,12 +66,13 @@ npm install node-red-dashboard node-red-contrib-alasql node-red-contrib-prib-fun
 
 ### 3. Import the Node-RED flow
 
-* Navigate to the [nodered.json](https://github.com/kanabu97/Sandu-Emergency_Detection-Handling_using_Wearable_Device_SCDFXIBM/blob/master/nodered.json)
+* Navigate to the [nodered.json](https://github.com/kanabu97/Sandu-Emergency_Detection-Handling_using_Wearable_Device_SCDFXIBM/blob/master/nodered.json).
 * Copy the content.
 * On the Node-RED flow editor, click the Menu and select `Import` -> `Clipboard` and paste the contents.
-* Import
-* Change the name od file of the following node to the directory of UserHRdata.csv downloaded
+* Import.
+* Change the name od file of the following node to the directory of UserHRdata.csv downloaded.
 ![](Capture1.JPG)
+
 * Change the directory path of the file in and out node to the desired directory to write and read the user details
 ![](Capture2.JPG) ![](Capture3.JPG)
 
