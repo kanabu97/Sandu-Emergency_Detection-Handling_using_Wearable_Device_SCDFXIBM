@@ -37,7 +37,7 @@ With that, SCDF can notify nearby CFRs to help the patient immediately and act a
 
 ## Demo video
 
-[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/gzHLkusNQIo)
 
 ## The architecture
 
