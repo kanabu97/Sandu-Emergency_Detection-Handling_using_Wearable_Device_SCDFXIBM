@@ -26,7 +26,7 @@ With the advancement in electronic chips technology, small and convenient fitnes
 ### The idea
 
 We believe that when emergency happen, wearable device is the most accessible device since it is worn on the patient's hand. If it is able to trigger a message to SCDF with just one 'click' when emergency happens, definitely, a much faster emergency response can be achieved. Hence, we come out with the idea to detect abnormal heart rate using wearable device and respond immediately by sending the incident to SCDF. Following are the proposed specifications:
-* 1. Wearable device constantly chekcking user's heart rate.
+* 1. Wearable device constantly checking user's heart rate.
 * 2. Healthy heart rate of the user are stored beforehands to be used for heart rate abnormality detection. 
 * 3. In the event where abnormal heart rate lasts for more than 3 minutes or fall is detected, user will be prompted a message to ask if they need help. Only one 'click' is needed to get help. 
 * 4. If help is needed or no reponse from the user, a message is sent to SCDF immediately.
