@@ -21,13 +21,13 @@ SCDF works closely with Community First Responders (CFRs) to provide timely reli
 
 ### How can technology help?
 
-With the advancement in electronic chips technology, small and convenient fitness tracker has become increasing common among the citizens as it allows the them to monitor thier health condition with just one button. Because of that, MOH are constantly making efforts to encourage citizens to wear a fitness tracker. On top of that, fitness tracker companies are also collaborating with Singapore HealthHub to give out subsidised or even free fitness trackers to the citizens. All these has put Singapore in a very good position to expand the usage of fitness tracker. Hence, we believe that SCDF can take advantage of this technology to further enhance the current emergency response system. 
+With the advancement in electronic chips technology, small and convenient fitness tracker has become increasing common among the citizens as it allows the them to monitor their health condition with just one button. Because of that, MOH are constantly making efforts to encourage citizens to wear a fitness tracker. On top of that, fitness tracker companies are also collaborating with Singapore HealthHub to give out subsidised or even free fitness trackers to the citizens. All these have put Singapore in a very good position to expand the usage of fitness tracker. Hence, we believe that SCDF can leverage and take advantage of this technology to further enhance the current emergency response system. 
 
 ### The idea
 
-We believe that when emergency happen, wearable device is the most accessible device since it is worn on the patient's hand. If it is able to trigger a message to SCDF with just one 'click' when emergency happens, definitely, a much faster emergency response can be achieved. Hence, we come out with the idea to detect abnormal heart rate using wearable device and respond immediately by sending the incident to SCDF. Following are the proposed specifications:
-* 1. Wearable device constantly checking user's heart rate.
-* 2. Healthy heart rate of the user are stored beforehands to be used for heart rate abnormality detection. 
+We believe that when emergency happen, wearable device is the most accessible device since it is worn on the patient's wrist. If it is able to trigger a message to SCDF with just one 'click' when emergency happens, definitely, a much faster emergency response can be achieved. Hence, we come out with the idea to detect abnormal heart rate using wearable device and respond immediately by sending the incident to SCDF. Following are the proposed specifications:
+* 1. Wearable device constantly checks user's heart rate.
+* 2. Healthy heart rates of the user are timely stored beforehand to be used for heart rate abnormality detection. 
 * 3. In the event where abnormal heart rate lasts for more than 3 minutes or fall is detected, user will be prompted a message to ask if they need help. Only one 'click' is needed to get help. 
 * 4. If help is needed or no reponse from the user, a message is sent to SCDF immediately.
 * 5. In the event where abnormal heart rate is too far away from range, SCDF will be informed directly.
@@ -48,7 +48,7 @@ With that, SCDF can notify nearby CFRs to help the patient immediately and act a
 3. Node Red analyse the heart rate.
 4. During abnormal heart rate event that lasted more than 3 min, message prompted on wearable to ask whether the user needs help.
 5. If user responds "Dismiss", no action is taken.
-6. If user does not respond or respond "need help", Node Red send emergency message (containing user data and user current condition) to SCDF.
+6. If user does not respond or respond "Need Help", Node Red send emergency message (containing user data and user current condition) to SCDF.
 7. SCDF officers can send the info to CFRs through myResponder app.
 
 ## Long description
