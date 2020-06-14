@@ -41,7 +41,7 @@ With that, SCDF can notify nearby CFRs to help the patient immediately and act a
 
 ## The architecture
 
-![](Architechture.png)
+![](Architecture.png)
 
 1. The user provide user details and normal heart rate data to Node Red. 
 2. Wearable detect heart rate and send to Node Red.
