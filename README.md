@@ -25,7 +25,7 @@ With the advancement in electronic chips technology, small and convenient fitnes
 
 ### The idea
 
-We believe that when emergency happen, wearable device is the most accessible device since it is worn on the patient's hand. If it is able to trigger a message to SCDF when emergency happens, a much faster emergency response can be achieved. Hence, we come out with the idea to detect abnormal heart rate using wearable device and respond immediately by sending the incident to SCDF. With that, SCDF can notify nearby CFRs to help the patient immediately. This function is particularly useful for single aging population as they are the most helpless group of people when emergency happens.
+We believe that when emergency happen, wearable device is the most accessible device since it is worn on the patient's hand. If it is able to trigger a message to SCDF with just one 'click' when emergency happens, definitely, a much faster emergency response can be achieved. Hence, we come out with the idea to detect abnormal heart rate using wearable device and respond immediately by sending the incident to SCDF. With that, SCDF can notify nearby CFRs to help the patient immediately. This function is particularly useful for single aging population as they are the most helpless group of people when emergency happens.
 
 ## Demo video
 
