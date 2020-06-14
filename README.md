@@ -21,7 +21,7 @@ SCDF works closely with Community First Responders (CFRs) to provide timely reli
 
 ### How can technology help?
 
-With the advancement in electronic chips technolofy, small and convenient fitness tracker has become increasing common among the citizens as it allows the users to monitor thier health condition with just one button. On top of that, a few Fitness tracker companies are collaborating with Singapore HealthHub to give out subsidised or even free fitness trackers to the citizens. Hence, it is our firm belief that SCDF should make full use of this wearable devices for better emergency detection and response.
+With the advancement in electronic chips technology, small and convenient fitness tracker has become increasing common among the citizens as it allows the them to monitor thier health condition with just one button. Because of that, MOH are constantly making efforts to encourage citizens to wear a fitness tracker. On top of that, fitness tracker companies are also collaborating with Singapore HealthHub to give out subsidised or even free fitness trackers to the citizens. All these has put Singapore in a very good position to expand the usage of fitness tracker. Hence, we believe that SCDF can take advantage of this technology to further enhance the current emergency response system. 
 
 ### The idea
 
