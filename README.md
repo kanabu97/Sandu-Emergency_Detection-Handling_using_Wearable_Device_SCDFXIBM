@@ -103,5 +103,8 @@ npm install node-red-dashboard node-red-contrib-alasql node-red-contrib-prib-fun
 
 * IBM Node Red
 
+## Authors
+Ng Wei Soon & Lim Hui Yi
+
 
 
